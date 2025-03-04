@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="32040b39c38862109fb4382d05013187" label="Cricket Wireless" max_length="40" name="x_320015_cricket_w_cricket_wireless" type="collection">
         <element attributes="edge_encryption_enabled=true" label="CricketWireless" max_length="40" name="cricketwireless" type="string"/>
+        <element label="Crick Demo Field" max_length="256" name="crick_demo_field" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="sys_class_name"/>
